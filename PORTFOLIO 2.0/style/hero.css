@@ -12,6 +12,11 @@ main {
     background-size: cover;
 }
 
+section.hero-principal {
+    height: 100dvh;
+    display: grid;
+}
+
 
 .hero {
     width: 100%;
@@ -75,6 +80,7 @@ main {
     height: 10dvh;
     gap: 1rem;
     background-color: rgba(0, 0, 0, 0.349);
+    align-self: flex-end;
     
    
 
