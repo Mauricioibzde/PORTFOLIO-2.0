@@ -104,6 +104,41 @@ section.hero-principal {
    
 }
 
+.slipci-big {
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+
+.slipse {
+  width: 5rem;
+  height: 5rem;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+/* Grande no centro */
+.slipse:nth-child(1) {
+  width: 15rem;
+  height: 15rem;
+  background-color: rgb(255, 153, 0);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Pequenas em posições variadas */
+.slipse:nth-child(2) { top: 10%; left: 20%; }
+.slipse:nth-child(3) { top: 70%; left: 10%; }
+.slipse:nth-child(4) { top: 30%; right: 5%; }
+.slipse:nth-child(5) { bottom: 15%; left: 60%; }
+
+
+
 
 
 
